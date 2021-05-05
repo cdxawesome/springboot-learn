@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://cdx:199418@192.168.203.129:27017/mydatabase
+#      host: 192.168.203.129
+#      port: 27017
+#      database: mydatabase2
+#      username: cdx
+#      password: 199418
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core: debug
+
