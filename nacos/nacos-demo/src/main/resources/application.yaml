@@ -1,0 +1,12 @@
+#spring:
+#  application:
+#    name: nacos-demo
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 192.168.188.128：8848
+#        namespace: nacos-config-demo
+#      username: nacos
+#      password: nacos
+#server:
+#  port: 8080
